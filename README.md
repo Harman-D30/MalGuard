@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MalGuard
 
 > A transparent malware analysis dashboard and triage tool for Windows PE binaries.
@@ -174,3 +175,6 @@ MalGuard maps static binary features to common adversary techniques:
 ## Safety Note
 
 MalGuard uses *purely static analysis*—it parses binary structure, bytes, and headers without actually launching or executing the file. Still, if you are testing real-world suspicious samples, always handle them inside a dedicated sandbox or isolated virtual machine.
+=======
+# MalGuard
+>>>>>>> ecfc617884ee579e1c42a0e64e0b7dbb6f129d9a
