@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MalGuard
 
 > A transparent malware analysis dashboard and triage tool for Windows PE binaries.
@@ -8,7 +7,7 @@
 
 > **Note for Judges & Reviewers:**  
 > The backend runs on Render's free tier. If the service has been idle, the initial request might take ~20–30 seconds while the container spins up from cold sleep (the top header badge will turn green to show `API: Connected`). Once awake, it runs smoothly. The frontend also has built-in mock fallbacks so you can test all the flows even during spin-up.
-
+ 
 ---
 
 ## Why MalGuard?
@@ -175,6 +174,3 @@ MalGuard maps static binary features to common adversary techniques:
 ## Safety Note
 
 MalGuard uses *purely static analysis*—it parses binary structure, bytes, and headers without actually launching or executing the file. Still, if you are testing real-world suspicious samples, always handle them inside a dedicated sandbox or isolated virtual machine.
-=======
-# MalGuard
->>>>>>> ecfc617884ee579e1c42a0e64e0b7dbb6f129d9a
